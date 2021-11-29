@@ -9,7 +9,7 @@ const wdioLogo = 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 module.exports = {
     title: 'Hackers Hub',
     tagline: 'Learn Ethical Hacking from Scratch',
-    url: 'https://hackers-hub.com',
+    url: 'https://hackers-hub.vercel.app',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'throw',
