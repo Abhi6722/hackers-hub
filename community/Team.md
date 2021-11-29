@@ -5,19 +5,19 @@ title: Team
 
 import Card from '../src/theme/card.jsx';
 
-The WebdriverIO development is led by a dedicated team of developers and SDETs from various companies as well contributions from people around the world.
+The Hackers Hub development is led by a dedicated team of developers and SDETs from various companies as well contributions from people around the world.
 
 ## Technical Steering Committee
 
 <Card
-    name="Adam Bjerstedt"
-    avatar="https://avatars2.githubusercontent.com/u/4043890?s=460"
-    github="abjerstedt"
+    name="Abhinav Kumar"
+    avatar="https://avatars.githubusercontent.com/u/62201123"
+    github="Abhi6722"
 >
-    Senior Software Engineer - Android at <a href="https://www.target.com/">Target</a>.
+    Web Developer - C.E.O. at <a href="https://hackers-hub.com/">Hackers Hub</a>.
 </Card>
 
-<Card
+<!-- <Card
     name="Christian Bromann"
     avatar="https://avatars2.githubusercontent.com/u/731337?s=460"
     github="christian-bromann"
@@ -66,24 +66,23 @@ The WebdriverIO development is led by a dedicated team of developers and SDETs f
     twitter="wswebcreation"
 >
     Senior Solutions Architect <a href="https://saucelabs.com/">@saucelabs</a>.
-</Card>
+</Card> -->
 
 ## Project Collaborators
 
 <Card
-    name="Baruch Velez"
-    avatar="https://avatars0.githubusercontent.com/u/14321495?s=460"
-    github="baruchvlz"
-    twitter="baruchvelez"
+    name="Abhinav Kumar"
+    avatar="https://avatars.githubusercontent.com/u/62201123"
+    github="Abhi6722"
 >
+    Web Developer - C.E.O. at <a href="https://hackers-hub.com/">Hackers Hub</a>.
 </Card>
 
-<Card
+<!-- <Card
     name="Boris Osipov"
     avatar="https://avatars.githubusercontent.com/u/6514276?v=4"
     github="BorisOsipov"
     twitter="bo_osipov"
 >
-</Card>
+</Card> -->
 
-and [many many more](https://github.com/orgs/webdriverio/people).

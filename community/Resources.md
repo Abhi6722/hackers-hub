@@ -4,10 +4,10 @@ title: Resources
 custom_edit_url: https://github.com/webdriverio-community/awesome-webdriverio/edit/main/README.md
 ---
 
-There are many wonderful curated resources the WebdriverIO community has put together.
-Make sure to contribute yours at [`awesome-webdriverio`](https://github.com/webdriverio-community/awesome-webdriverio)!
+There are many wonderful curated resources the Hackers Hub community has put together.
+Make sure to contribute yours at [`hackers-hub-website`](https://github.com/Abhi6722/hackers-hub-website)!
 
-- [WebdriverIO Ecosystem](#webdriverio-ecosystem)
+- [Hackers Hub Ecosystem](#webdriverio-ecosystem)
   - [Support WebdriverIO](#support-webdriverio)
   - [Documentation](#documentation)
   - [Community](#community)
@@ -22,15 +22,15 @@ Make sure to contribute yours at [`awesome-webdriverio`](https://github.com/webd
   - [Conference/Meetup Talks/Webinars](#conferencemeetup-talkswebinars)
   - [Courses](#courses)
   - [Books](#books)
-  - [WebdriverIO Examples](#webdriverio-examples)
+  - [Hackers Hub Examples](#webdriverio-examples)
 
 <!--lint disable list-item-indent-->
 
-## WebdriverIO Ecosystem
+## Hackers Hub Ecosystem
 
-### Support WebdriverIO
+### Support Hackers Hub
 
-- [WebdriverIO Open Collective](https://opencollective.com/webdriverio) - Help support the teams ongoing development efforts.
+- [hackers Hub Open Collective](https://opencollective.com/hackers-hub) - Help support the teams ongoing development efforts.
 
 ### Documentation
 
