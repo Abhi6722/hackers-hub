@@ -1,7 +1,7 @@
 ---
 id: contribute
 title: Contribute
-custom_edit_url: https://github.com/webdriverio/webdriverio/edit/main/CONTRIBUTING.md
+custom_edit_url: https://github.com/Abhi6722/hackers-hub/edit/main/CONTRIBUTING.md
 ---
 
 You like Hackers Hub and want to help making it better? Awesome! We are working to make this process as easy and transparent as possible. We might be not quite there yet but this guide will help you to ramp you up as a contributor and give you everything you need to make your first contribution. If there is any information missing that prevents you from sending in a pull request, please let us know. We treat these kind of issues like actual bugs.
