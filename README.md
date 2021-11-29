@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://hackers-hub.netlify.app/">
+    <a href="https://hackers-hub.vercel.app/">
         <img alt="Hackers Hub" src="https://webdriver.io/assets/images/robot-3677788dd63849c56aa5cb3f332b12d5.svg" width="146">
     </a>
 </p>
@@ -30,9 +30,9 @@
 ***
 
 <p align="center">
-    <a href="https://hackers-hub.netlify.app/">Homepage</a> |
-    <a href="https://hackers-hub.netlify.app/docs/gettingstarted">Developer Guide</a> |
-    <a href="https://hackers-hub.netlify.app/docs/api">API Reference</a> |
+    <a href="https://hackers-hub.vercel.app/">Homepage</a> |
+    <a href="https://hackers-hub.vercel.app/docs/gettingstarted">Developer Guide</a> |
+    <a href="https://hackers-hub.vercel.app/docs/api">API Reference</a> |
     <a href="https://github.com/Abhi6722/hackers-hub/blob/main/CONTRIBUTING.md">Contribute</a> |
     <a href="https://github.com/Abhi6722/hackers-hub/blob/main/CHANGELOG.md">Changelog</a> |
     <a href="https://github.com/Abhi6722/hackers-hub/blob/main/ROADMAP.md">Roadmap</a>
@@ -40,7 +40,7 @@
 
 ***
 
-[Hackers Hub](https://hackers-hub.netlify.app) is one place where you can learn hacking from scratch and master your skills. We at hackers hub help and provide you the best guidance and material to help you in your hacking journey.We also provides you with [Courses](https://hackers-hub.com/courses) for clear concept testing as well as [Books](https://hackers-hub.com/shop/) for self instruction and revision along with [Hacking Articles](https://hackers-hub.com/blog). 
+[Hackers Hub](https://hackers-hub.vercel.app) is one place where you can learn hacking from scratch and master your skills. We at hackers hub help and provide you the best guidance and material to help you in your hacking journey.We also provides you with [Courses](https://hackers-hub.com/courses) for clear concept testing as well as [Books](https://hackers-hub.com/shop/) for self instruction and revision along with [Hacking Articles](https://hackers-hub.com/blog). 
 
 ## :woman_technologist: :man_technologist: Contributing
 
