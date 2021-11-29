@@ -2,8 +2,7 @@
   "docs": {
     "Introduction": [
       "what-is-hackers-hub",
-      "gettingstarted",
-      "boilerplates"
+      "gettingstarted"
     ],
     "Core Concepts": [
       "setuptypes",

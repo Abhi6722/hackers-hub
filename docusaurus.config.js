@@ -70,7 +70,7 @@ module.exports = {
                 docId: 'gettingstarted',
             }, {
                 type: 'doc',
-                label: 'API',
+                label: 'Courses',
                 position: 'left',
                 docId: 'api',
             }, {
@@ -151,7 +151,7 @@ module.exports = {
                 }],
             }],
             logo: {
-                alt: 'OpenJS Foundation Logo',
+                alt: 'Hackers Hub Logo',
                 src: '/img/footerlogo.png',
                 href: 'https://hackers-hub.com/'
             },
@@ -164,7 +164,7 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
-                    editUrl:`${repoUrl}/edit/${branch}/website/`,
+                    editUrl:`${repoUrl}/edit/${branch}`,
                     remarkPlugins: [
                         [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
                     ],
@@ -179,7 +179,7 @@ module.exports = {
                     showReadingTime: true,
                     postsPerPage: 3,
                     // Please change this to your repo.
-                    editUrl: `${repoUrl}/edit/${branch}/website/blog/`,
+                    editUrl: `${repoUrl}/edit/${branch}/blog/`,
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -202,7 +202,7 @@ module.exports = {
             {
                 id: 'community',
                 path: 'community',
-                editUrl: `https://github.com/${organizationName}/${projectName}/edit/${branch}/website/`,
+                editUrl: `https://github.com/${organizationName}/${projectName}/edit/${branch}/`,
                 routeBasePath: 'community',
                 sidebarPath: require.resolve('./sidebarsCommunity.js')
             },
