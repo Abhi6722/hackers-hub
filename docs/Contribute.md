@@ -73,12 +73,12 @@ In order to set up this project and start contributing follow this step by step 
 * Clone the project somewhere on your computer
 
     ```sh
-    $ git clone git@github.com:<your-username>/webdriverio.git
+    $ git clone git@github.com:<your-username>/hackers-hub.git
     ```
 
 * On Windows, you need to set git config `core.symlinks` to `true` as we currently have some symbolic links for type definition committed to our repo.
   - To set git config globally: `git config --global --add core.symlinks true`
-  - To set git config locally when cloning the repo: `git -c core.symlinks=true clone git@github.com:<your-username>/webdriverio.git`.
+  - To set git config locally when cloning the repo: `git -c core.symlinks=true clone git@github.com:<your-username>/hackers-hub.git`.
 
   See [https://github.com/git-for-windows/git/wiki/Symbolic-Links](https://github.com/git-for-windows/git/wiki/Symbolic-Links) for more information
 
@@ -165,7 +165,7 @@ npm run test:typings
 
 This will run all the tests for all the type definitions Hackers Hub provides. These tests just check if TypeScript can compile them according to the generated type definitions. All the type checks are located in `/hackers-hub/tests/typings`. If you extend a Hackers Hub command or interfaces for other type definitions, please ensure that you have used it in these files. The directory contains tests for the asynchronous usage of Hackers Hub.
 
-For example, to test the `touchActions` properties, we have it tested in `/tests/typings/webdriverio/async.ts`:
+For example, to test the `touchActions` properties, we have it tested in `/tests/typings/hackers-hub/async.ts`:
 
 ```ts
 // touchAction
@@ -198,19 +198,19 @@ browser.touchAction(touchAction)
 
 ## Documentation
 
-This repository contains everything to set up, build and deploy the WebdriverIO documentation pages. We are using [Docusaurus](https://docusaurus.io/) (v2) to generate the page. The content is generated based off:
+This repository contains everything to set up, build and deploy the hackers-hub documentation pages. We are using [Docusaurus](https://docusaurus.io/) (v2) to generate the page. The content is generated based off:
 
-- the guidelines pages from markdown files of the [docs directory](https://github.com/webdriverio/webdriverio/tree/main/website/docs)
+- the guidelines pages from markdown files of the [docs directory](https://github.com/Abhi6722/hackers-hub/tree/main/website/docs)
 - service and reporter docs from the readme files of those packages within this repository
-- service and reporter docs from 3rd party plugins (defined in [these JSON files](https://github.com/webdriverio/webdriverio/tree/main/scripts/docs-generation/3rd-party)) that are downloaded from GitHub and parsed
-- the protocol APIs from the [`@wdio/protocols`](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-protocols/protocols) package
-- the WebdriverIO API that is parsed out of the JSDoc comments of individual commands (e.g., [`execute`](https://github.com/webdriverio/webdriverio/blob/main/packages/webdriverio/src/commands/browser/execute.ts#L3-L37) command)
+- service and reporter docs from 3rd party plugins (defined in [these JSON files](https://github.com/Abhi6722/hackers-hub/tree/main/scripts/docs-generation/3rd-party)) that are downloaded from GitHub and parsed
+- the protocol APIs from the [`@wdio/protocols`](https://github.com/Abhi6722/hackers-hub/tree/main/packages/wdio-protocols/protocols) package
+- the Hackers Hub API that is parsed out of the JSDoc comments of individual commands (e.g., [`execute`](https://github.com/Abhi6722/hackers-hub/blob/main/packages/hackers-hub/src/commands/browser/execute.ts#L3-L37) command)
 
 Changes to the docs need to be done in one of these places. Please note that changes to e.g. the config file have to be updated in multiple places given that config files are wide spread (as examples or test files) within this repository. A good way to go about this is to look for all occurrences of a certain string of the config and update changes in all findings.
 
 ### Deploying the Documentation Locally
 
-After you have [set up the project](https://github.com/webdriverio/webdriverio/blob/main/CONTRIBUTING.md#set-up-project) you can go into the `website` directory to set up the docs page and run it on your local machine. To do so, run:
+After you have [set up the project](https://github.com/Abhi6722/hackers-hub/blob/main/CONTRIBUTING.md#set-up-project) you can go into the `website` directory to set up the docs page and run it on your local machine. To do so, run:
 
 ```sh
 cd website
@@ -220,15 +220,15 @@ $ npm start
 
 This will set up everything needed to run the page on [`localhost:3000`](http://localhost:3000/). If you need to run on a different host or port, pass them as additional arguments to npm start, like `-- --host 0.0.0.0`.
 
-You can now modify the content of the [`/website/docs`](https://github.com/webdriverio/webdriverio/tree/main/website/docs) files as well as change styles and templates. The page will be automatically updated. If you add documentation in other places, you have to rerun the `npm start` script to re-generate the docs.
+You can now modify the content of the [`/website/docs`](https://github.com/Abhi6722/hackers-hub/tree/main/website/docs) files as well as change styles and templates. The page will be automatically updated. If you add documentation in other places, you have to rerun the `npm start` script to re-generate the docs.
 
 ### Deploying the Documentation in Production
 
-Every time a new release is pushed to GitHub the WebdriverIO docs need to be build and re-deployed to the project's S3 bucket. The process is defined in a GitHub Actions [pipeline](https://github.com/webdriverio/webdriverio/blob/main/.github/workflows/deploy.yml). All you need to do (as maintainer) is to trigger the pipeline. The rest is handled by the workflow.
+Every time a new release is pushed to GitHub the Hackers Hub docs need to be build and re-deployed to the project's S3 bucket. The process is defined in a GitHub Actions [pipeline](https://github.com/Abhi6722/hackers-hub/blob/main/.github/workflows/deploy.yml). All you need to do (as maintainer) is to trigger the pipeline. The rest is handled by the workflow.
 
 ## Create New Package
 
-All WebdriverIO sub packages require a certain structure to work within the wdio ecosystem. To simplify the process of creating a new sub package, we built an NPM script that does all the boilerplate work for you. Just run:
+All Hackers Hub sub packages require a certain structure to work within the wdio ecosystem. To simplify the process of creating a new sub package, we built an NPM script that does all the boilerplate work for you. Just run:
 
 ```sh
 npm run create
@@ -238,7 +238,7 @@ It will ask you about the type and name of the new package and create all the fi
 
 ## Back-Porting Bug Fixes
 
-Starting from v6 the WebdriverIO team tries to backport all features that would be still backwards compatible with older versions. The team tries to release a new major version every year (usually around December/January). With a new major version update (e.g. v7) we continue to maintain the last version (e.g. v6) and deprecate the previous maintained version (e.g. v5, v4 and lower). With that the team commits to always support 2 major versions.
+Starting from v6 the Hackers Hub team tries to backport all features that would be still backwards compatible with older versions. The team tries to release a new major version every year (usually around December/January). With a new major version update (e.g. v7) we continue to maintain the last version (e.g. v6) and deprecate the previous maintained version (e.g. v5, v4 and lower). With that the team commits to always support 2 major versions.
 
 ### As a Triager
 
@@ -287,7 +287,7 @@ Successfully backported 2 PRs 👏!
 Please now push them to `v6` and make a new v6.x release!
 ```
 
-You can always reach out to the `webdriverio/ProjectCommitters` channel on Gitter for questions.
+You can always reach out to the `hackers-hub/ProjectCommitters` channel on Gitter for questions.
 
 ## Release New Version
 
@@ -301,6 +301,6 @@ If you are unsure about which release type to pick, reach out in the TSC Gitter 
 
 ## Workshop
 
-As part of the [OpenJS World 2020](https://events.linuxfoundation.org/openjs-world/) [Collaborator Summit](https://openjscs2020.sched.com/event/cf2J/contributing-to-webdriverio-christian-bromann) the WebdriverIO team hosted a workshop on "Contributing to WebdriverIO" that can help you get familiar with the code base and the project. Have a watch:
+As part of the [OpenJS World 2020](https://events.linuxfoundation.org/openjs-world/) [Collaborator Summit](https://openjscs2020.sched.com/event/cf2J/contributing-to-webdriverio-christian-bromann) the Hackers Hub team hosted a workshop on "Contributing to hackers-hub" that can help you get familiar with the code base and the project. Have a watch:
 
 [This repository](https://github.com/Abhi6722/hackers-hub) contains all necessary packages of the Hackers Hub project (excluding plugins that were contributed by 3rd party developers). These packages have individual descriptions in their README files (`/packages/<package>/README.md`) providing information about their scope and responsibilities. Even though the build commands might differ from package to package the way to work with these is the same. This project uses [Lerna](https://lerna.js.org/) to manage all its subprojects in this monolith repository.
