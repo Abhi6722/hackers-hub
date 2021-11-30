@@ -72,7 +72,7 @@ module.exports = {
                 type: 'doc',
                 label: 'Courses',
                 position: 'left',
-                docId: 'api',
+                docId: 'courses',
             }, {
                 to: 'blog', label: 'Blog', position: 'left'
             }, {
@@ -95,7 +95,7 @@ module.exports = {
                 className: 'header-github-link',
                 'aria-label': 'GitHub repository',
             }],
-        },
+        },        
         footer: {
             style: 'dark',
             links: [{
