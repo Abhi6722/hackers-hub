@@ -1,5 +1,5 @@
 ---
-id: courses
+id: api
 title: Introduction
 ---
 
