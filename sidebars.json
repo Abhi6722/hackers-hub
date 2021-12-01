@@ -5,6 +5,7 @@
       "gettingstarted"
     ],
     "Core Concepts": [
+      "hackingbasics",
       "setuptypes",
       "sync-vs-async",
       "automationProtocols",
