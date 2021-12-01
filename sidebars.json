@@ -5,12 +5,19 @@
       "gettingstarted"
     ],
     "Core Concepts": [
-      "hackingbasics",
-      "setuptypes",
-      "sync-vs-async",
-      "automationProtocols",
-      "multiremote",
-      "autowait"
+      "hackingbasics"
+    ],
+    "Phishing": [
+      "hackingbasics"
+    ],
+    "Information Gathering": [
+      "hackingbasics"
+    ],
+    "Vulnerability Analysis": [
+      "hackingbasics"
+    ],
+    "Exploitation Tools": [
+      "hackingbasics"
     ]
   },
   "api": [
