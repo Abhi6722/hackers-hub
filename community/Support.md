@@ -22,7 +22,7 @@ There are many online forums which are a great place for discussion about Webdri
 
 - [GitHub Discussions](https://github.com/Abhi6722/hackers-hub/discussions)
 - [Community Channel](https://gitter.im/official-hackers-hub/community)
-- [Join our Discord Server](https://discord.gg/DXUFvjCR)
+- [Join our Discord Server](https://discord.gg/rCeSQknQ)
 
 ## News
 
