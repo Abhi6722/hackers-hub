@@ -47,9 +47,9 @@ module.exports = {
             trackingID: 'UA-47063382-1'
         },
         algolia: {
-            apiKey: '1b22fa823f22b7916528edc0e36d9d4a',
-            indexName: 'webdriver',
-            appId: 'BH4D9OD16A'
+            apiKey: 'd67ddab8f03c4dc36f34c69af43c3853',
+            indexName: 'hackers-hub',
+            appId: 'WTQFDDWEGY'
         },
         announcementBar: {
             id: 'supportus',
