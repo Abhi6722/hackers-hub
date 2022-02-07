@@ -1,0 +1,101 @@
+---
+id: react$
+title: react$
+custom_edit_url: https://github.com/Abhi6722/hackers-hub/edit/main/packages/webdriverio/src/commands/browser/react$.ts
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+The `react$` command is a useful command to query React Components by their
+actual name and filter them by props and state.
+
+:::info
+
+The command only works with applications using React v16.x. Read more about React
+selectors in the [Selectors](/docs/selectors#react-selectors) guide.
+
+:::
+
+##### Usage
+
+```js
+browser.react$(selector, { props, state })
+```
+
+##### Parameters
+
+| Name | Type | Details |
+| ---- | ---- | ------- |
+| <code><var>selector</var></code> | <code>String</code> | of React component |
+| <code><var>options</var></code><br /><span class="label labelWarning">optional</span> | <code>ReactSelectorOptions</code> | React selector options |
+| <code><var>options.props</var></code><br /><span class="label labelWarning">optional</span> | <code>Object</code> | React props the element should contain |
+| <code><var>options.state</var></code><br /><span class="label labelWarning">optional</span> | <code>Array.&lt;any&gt;</code>, <code>number</code>, <code>string</code>, <code>object</code>, <code>boolean</code> | React state the element should be in |
+
+##### Example
+<Tabs
+defaultValue="async"
+className="runtime"
+values={[
+{label: 'Asynchronous Mode', value: 'async'},
+{label: 'Synchronous Mode', value: 'sync'}
+]
+}>
+<TabItem value="async">
+
+```js title="pause.js"
+it('should calculate 7 * 6', async () => {
+    await browser.url('https://ahfarmer.github.io/calculator/');
+    const appWrapper = await $('div#root')
+
+    await browser.react$('t', {
+        props: { name: '7' }
+    }).click()
+    await browser.react$('t', {
+        props: { name: 'x' }
+    }).click()
+    await browser.react$('t', {
+        props: { name: '6' }
+    }).click()
+    await browser.react$('t', {
+        props: { name: '=' }
+    }).click()
+
+    console.log(await $('.component-display').getText()); // prints "42"
+});
+```
+
+</TabItem>
+<TabItem value="sync">
+
+```js title="pause.js"
+it('should calculate 7 * 6', () => {
+    browser.url('https://ahfarmer.github.io/calculator/');
+    const appWrapper = $('div#root')
+
+    browser.react$('t', {
+        props: { name: '7' }
+    }).click()
+    browser.react$('t', {
+        props: { name: 'x' }
+    }).click()
+    browser.react$('t', {
+        props: { name: '6' }
+    }).click()
+    browser.react$('t', {
+        props: { name: '=' }
+    }).click()
+
+    console.log($('.component-display').getText()); // prints "42"
+});
+```
+
+:::caution
+Synchronous Mode will depcrecated with Node.js v16. With an update to the
+underlying Chromium version it became technically impossible to provide the
+same synchronous behavior. We recommend to start transition to asynchronous
+command execution. For more information, see our <a href="https://github.com/webdriverio/webdriverio/discussions/6702">RFC</a>.
+:::
+</TabItem>
+</Tabs>
+

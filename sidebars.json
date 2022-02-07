@@ -1,0 +1,41 @@
+{
+  "docs": {
+    "Introduction": [
+      "what-is-hackers-hub",
+      "gettingstarted"
+    ],
+    "Core Concepts": [
+      "hackingbasics"
+    ],
+    "Phishing": [
+      "hackingbasics"
+    ],
+    "Information Gathering": [
+      "hackingbasics"
+    ],
+    "Vulnerability Analysis": [
+      "hackingbasics"
+    ],
+    "Exploitation Tools": [
+      "hackingbasics"
+    ]
+  },
+  "api": [
+    "api",
+    "api/expect-webdriverio",
+    {
+      "type": "category",
+      "label": "Protocols",
+      "items": [
+        "api/webdriver",
+        "api/appium",
+        "api/mjsonwp",
+        "api/chromium",
+        "api/gecko",
+        "api/saucelabs",
+        "api/selenium",
+        "api/jsonwp"
+      ]
+    }
+  ]
+}

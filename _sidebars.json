@@ -1,0 +1,69 @@
+{
+  "docs": {
+    "Introduction": [
+      "what-is-hackers-hub",
+      "gettingstarted"
+    ],
+    "Core Concepts": [
+      "setuptypes",
+      "sync-vs-async",
+      "automationProtocols",
+      "multiremote",
+      "autowait"
+    ],
+    "Configuration": [
+      "options",
+      "babel",
+      "typescript",
+      "proxy",
+      "driverbinaries"
+    ],
+    "Guides": [
+      "selectors",
+      "timeouts",
+      "browserobject",
+      "mocksandspies",
+      "customcommands",
+      "pageobjects",
+      "debugging",
+      "repl"
+    ],
+    "Testrunner": [
+      "clioptions",
+      "configurationfile",
+      "frameworks",
+      "assertion",
+      "organizingsuites",
+      "retry",
+      "watcher",
+      "customreporter",
+      "customservices"
+    ],
+    "Migrate": [
+      "v6-migration",
+      "v7-migration",
+      "protractor-migration",
+      "async-migration"
+    ],
+    "Integration": [
+      "cloudservices",
+      "autocompletion",
+      "docker",
+      "githubactions",
+      "jenkins",
+      "bamboo"
+    ]
+  },
+  "api": [
+    "api",
+    "api/expect-webdriverio"
+  ],
+  "flowcharts": {
+      "Flowcharts": [
+        "flowcharts/wdiocommands",
+        "flowcharts/createlocalworkerprocess",
+        "flowcharts/testexecution",
+        "flowcharts/highleveloverview"
+      ]
+  }
+}
